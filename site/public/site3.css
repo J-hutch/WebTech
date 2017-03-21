@@ -1,0 +1,232 @@
+
+.fixed-nav-bar
+{
+  opacity: 0.8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}
+
+.title
+{
+  position: fixed;
+  top: 30px;
+  left: 500px;
+  color: white;
+}
+
+.top-image
+{
+position: fixed;
+top: 100px;
+left: 225px;
+}
+
+.body-image
+{
+position: fixed;
+top: 250px;
+left: 250px;
+}
+
+.right-side-bar
+{
+opacity: 0.8;
+position: fixed;
+top: 100px;
+left: 1220px;
+width: 150px;
+height:100%;
+background-color: black;
+}
+
+.glass
+{
+  position:fixed;
+  top: 20px;
+  left: 1239px;
+  position:relative;
+  background-color: white;
+  border-style: none;
+}
+
+.mytext
+{
+  position:relative;
+  top: 10px;
+  left: 1050px;
+  width: 150px;
+  height: 30px;
+  border-style: none;
+
+}
+
+.gallery
+{
+  position: relative;
+  top: 240px;
+  left: 220px;
+  border-style: solid;
+  border-color: black;
+  width: 985px;
+  height: 1500px;
+}
+
+.image_box
+{
+  position: relative;
+  top: 10px;
+  left: 10px;
+  background-color: #EEEEEE;
+  height: 240px;
+  width: 200px;
+  box-shadow: 10px 10px 5px #888888;
+  transition: 0.4s;
+}
+
+.image_box.active, .image_box:hover
+{
+  height: 250px;
+  width: 210px;
+  top: 20px;
+  left:20px;
+  box-shadow: 20px 20px 10px #888888;
+}
+
+.item_info.active, .item_info:hover
+{
+
+}
+
+.item_info
+{
+  position: relative;
+  height: 60px;
+  width: 200px;
+  top: 180px;
+  text-align: center;
+  opacity: 0.6;
+  background-color: #000000;
+  transition: 0.4s;
+}
+
+
+.uper-side-bar
+{
+  opacity: 0.8;
+  text-align: center;
+  position: fixed;
+  top: 100px;
+  left: 20px;
+  background-color: grey;
+  border-style: solid;
+  border-color: grey;
+  float: left;
+  height: 145px;
+  width: 200px;
+}
+
+.fixed-side-bar
+{
+  opacity: 0.8;
+  text-align: center;
+  position: fixed;
+  top: 250px;
+  left: 20px;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  float: left;
+  height: 600px;
+  width: 200px;
+}
+
+
+
+
+button.accordion
+ {
+    position: fixed;
+    border-style: dotted;
+    border-color: #777;
+    top: 400px;
+    left: 50px;
+    background-color: grey;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    color: white;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover
+{
+  background-color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: thick;
+  border-radius: 2px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+button.accordion:after
+{
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+button.accordion.active:after
+{
+  content: "\2212";
+}
+
+div.panel
+{
+  position: fixed;
+  top: 450px;
+  left: 50px;
+  width: 150px;
+  height: 60px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.red
+{
+position: relative;
+top: 10px;
+left: 15px
+}
+
+.orange
+{
+position: relative;
+top: 10px;
+left: 15px
+}
+
+
+.green
+{
+position: relative;
+top: 10px;
+left: 15px
+}
+
+.blue
+{
+position: relative;
+top: 10px;
+left: 15px
+}
